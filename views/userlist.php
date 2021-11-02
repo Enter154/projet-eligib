@@ -4,7 +4,7 @@
 <body>  
     
     <header>
-      
+        <h1>User List :</h1>
     </header>
   
     <table>  
@@ -20,7 +20,7 @@
     </table>  
 
     <footer>
-
+            2021 Author : Léon Van Linden
     </footer>
   
 </body>  

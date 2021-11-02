@@ -3,7 +3,7 @@
   
 <body>  
   <header>
-      
+        <h1>User Infos :</h1>
   </header>
 
     <?php   
@@ -15,7 +15,7 @@
     ?>  
   
   <footer>
-
+        2021 Author : Léon Van Linden
   </footer>
 
 </body> 

@@ -1,7 +1,7 @@
 <?php
 
-    include_once("models/model.php");  
-      
+    include_once("models/model.php");
+
     class Controller {  
         public $model;   
       
