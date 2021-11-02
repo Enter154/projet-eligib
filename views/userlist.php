@@ -2,6 +2,10 @@
 <head></head>  
   
 <body>  
+    
+    <header>
+      
+    </header>
   
     <table>  
         <tbody><tr><td>Username</td><td>User ID</td><td>E-mail</td></tr></tbody>  
@@ -14,6 +18,10 @@
   
         ?>  
     </table>  
+
+    <footer>
+
+    </footer>
   
 </body>  
 </html>  

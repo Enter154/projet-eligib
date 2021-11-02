@@ -20,7 +20,7 @@
               else 
               { 
                   $user = $this->model->getUser($_GET['user']); 
-                  include 'views/list.php';  
+                  include 'views/user.php';  
               }  
         }  
     }  

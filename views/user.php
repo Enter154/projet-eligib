@@ -2,7 +2,10 @@
 <head></head>  
   
 <body>  
-  
+  <header>
+      
+  </header>
+
     <?php   
   
         echo 'Username :' . $user->username . '<br/>';  
@@ -11,5 +14,9 @@
   
     ?>  
   
-</body>  
+  <footer>
+
+  </footer>
+
+</body> 
 </html>  
