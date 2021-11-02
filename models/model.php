@@ -1,20 +1,20 @@
 <?php
 
-    include_once("model/Book.php");  
+    include_once("models/user.php");  
       
     class Model {  
         public function getUserList()  
-        {    
+        { 
             return array(  
-                "Jungle Book" => new Book("Jungle Book", "R. Kipling", "A classic book."),  
-                "Moonwalker" => new Book("Moonwalker", "J. Walker", ""),  
-                "PHP for Dummies" => new Book("PHP for Dummies", "Some Smart Guy", "")  
+                "Alt236" => new User("1", "Alt236", "AAA", "a@gmail.com"),  
+                "Alt237" => new User("2", "Alt237", "AAA", "b@gmail.com"),  
+                "Alt238" => new User("3", "Alt238", "AAA", "c@gmail.com")
             );  
         }     
         public function getUser($username)  
         {  
-            $allBooks = $this->getUserList();  
-            return $allBooks[$username];  
+            $allUser = $this->getUserList();  
+            return $allUser[$username];  
         }  
             
     }  

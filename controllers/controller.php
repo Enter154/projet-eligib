@@ -1,6 +1,6 @@
 <?php
 
-    include_once("model/Model.php");  
+    include_once("models/model.php");  
       
     class Controller {  
         public $model;   
@@ -12,15 +12,15 @@
           
         public function invoke()  
         {  
-              if (!isset($_GET['book']))  
+              if (!isset($_GET['user']))  
               {  
-                  $books = $this->model->getBookList();  
-                  include 'view/booklist.php'; 
+                  $user = $this->model->getUserList();  
+                  include 'views/userlist.php'; 
               } 
               else 
               { 
-                  $book = $this->model->getBook($_GET['book']); 
-                  include 'view/viewbook.php';  
+                  $user = $this->model->getUser($_GET['user']); 
+                  include 'views/list.php';  
               }  
         }  
     }  
