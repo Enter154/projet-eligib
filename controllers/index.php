@@ -6,7 +6,10 @@
     </head>
     
     <body>
-        <h1>Goblet Inc.</h1>
+        <?php
+            $connected = true;
+        ?>
+        <h1>Coffe Delivery Inc.</h1>
         
         <p>
             Cette page contient du code HTML avec des balises PHP.<br />
@@ -23,4 +26,8 @@
         </ul>
 
     </body>
+
+    <footer>
+        <p>© 2021 Léon Van Linden</p>
+    </footer>
 </html>
