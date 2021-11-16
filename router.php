@@ -3,27 +3,21 @@ require('controller.php');
 
 class Router{
 
-    private $request;
+    public function run()
+    {
+        if (isset($_GET['action'])){
+            $action = $_GET['action'];
 
-	public function __construct($request){
-		$this->request = $request;
-	}
+            if ('post' === $action) {
+                var_dump('toto');
+            } elseif ('contact' === $action) {
+                var_dump('contact');
+            }
+        } else {
+            require_once 'index.php';
+        }
+    }
 
-	public function get($route, $file){
-
-		$uri = trim( $this->request, "/" );
-
-		$uri = explode("/", $uri);
-
-		if($uri[0] == trim($route, "/")){
-
-			array_shift($uri);
-			$args = $uri;
-
-			require $file . '.php';
-
-		}
-
-	}
+	
 
 }
