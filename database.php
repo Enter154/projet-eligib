@@ -4,7 +4,7 @@ class Database
 {
     const DB_HOST = 'mysql:host=localhost;dbname=training-blog;charset=utf8';
     const DB_USER = 'root';
-    const DB_PASSWORD = 'a';
+    const DB_PASSWORD = 'root';
 
     public function getConnection(): PDO
     {
